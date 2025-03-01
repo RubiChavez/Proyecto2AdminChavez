@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Contacto">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,36 +21,10 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/tvTitulo"
+            android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="200dp"
-            android:gravity="center"
-            android:text="App Gestión Chávez"
+            android:text="Contactos"
             android:textSize="30sp" />
-
-        <ImageView
-            android:id="@+id/imLogo"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:srcCompat="@android:mipmap/sym_def_app_icon" />
-
-        <Button
-            android:id="@+id/btnVenta"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Venta" />
-
-        <Button
-            android:id="@+id/btnContacto"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Contacto" />
-
-        <Button
-            android:id="@+id/btnProductos"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Productos y Servicios" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
